@@ -1,5 +1,6 @@
 {
   "name": "create-react-app-sass",
+  "homepage": "http://mzohaibqc.github.io/create-react-app-sass",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,9 +12,12 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "node-sass": "^4.8.3",
     "react-app-rewire-sass-modules": "^1.1.5",
     "react-app-rewired": "^1.5.0",

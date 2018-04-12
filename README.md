@@ -1,5 +1,8 @@
 # Create-React-App-Scss
 This project contains boilerplate code for using scss/sass with `create-react-app` generated app.
+
+Demo: https://mzohaibqc.github.io/create-react-app-sass/
+
 Credit: SCSS styles/src is taken from here https://templated.co/
 
 ## Folder Structure
@@ -51,5 +54,5 @@ module.exports = function override(config, env) {
   return config;
 }
 ```
-- Added scss/sass styles in `/src/styles` directory
+- Add scss/sass styles in `/src/styles` directory
 - Run your app and you are good to go :) yahooo....
