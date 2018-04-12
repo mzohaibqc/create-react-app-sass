@@ -1,0 +1,22 @@
+{
+  "name": "create-react-app-sass",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "react-app-rewire-sass-modules": "^1.1.5",
+    "react-app-rewired": "^1.5.0",
+    "sass-loader": "^6.0.7"
+  }
+}
